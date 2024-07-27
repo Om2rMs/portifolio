@@ -1,0 +1,35 @@
+.portfolio_item {
+    background: var(--color-bg-var);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 12);
+
+}
+
+
+.portfolio_item:hover {
+    border-color: var(--color-primary-var);
+    background: transparent;
+}
+
+.portfolio_item:hover h3 {
+    color: #fff;
+}
+
+
+.portfolio_item h3 {
+    margin: 1.2rem 0 1rem;
+    color: var(--color-icon);
+}
+
+.portfolio_item_img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio_item_link {
+    display: flex;
+    gap: 1rem;
+}
