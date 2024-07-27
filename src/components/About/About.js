@@ -2,7 +2,6 @@ import React from "react";
 import './About.css';
 import { contentData } from '../../assests/aboutContentData';
 import Card from "../Card/Card";
-import identify from '../../assests/me.gif';
 
 
 
